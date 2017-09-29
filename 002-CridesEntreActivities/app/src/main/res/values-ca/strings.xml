@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Crida entre Activities</string>
+    <string name="usuario">Usuari</string>
+    <string name="saludo">Hola</string>
+</resources>
