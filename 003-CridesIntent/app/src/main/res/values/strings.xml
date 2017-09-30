@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Cridar Intents</string>
+    <string name="browser">Google!</string>
+    <string name="texto">Compartir Text</string>
+    <string name="llamada">Trucar</string>
+    <string name="correo">E-Mail</string>
+    <string name="textoEjemplo">Un texto de prueba para compartir</string>
+    <string name="foto">Capturar foto</string>
+    <string name="imgPhotoDescr">Aquí va la foto</string>
+</resources>
