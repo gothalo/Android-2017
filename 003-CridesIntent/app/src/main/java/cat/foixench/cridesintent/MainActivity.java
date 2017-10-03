@@ -64,8 +64,9 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 openIntent(Intent.ACTION_DIAL, "tel:5551234");
                 break;
             case R.id.btnEmail:
-                Intent intent = new Intent(Intent.ACTION_SEND);
+                Intent intent = new Intent(Intent.ACTION_SENDTO);
                 intent.setType("text/plain");
+                intent.setData (Uri.parse("mailto:ejemplo@ejemplo.com"));
                 intent.putExtra(Intent.EXTRA_SUBJECT, "asunto de prueba");
                 intent.putExtra(Intent.EXTRA_TEXT, "probando el envio");
                 intent.putExtra(Intent.EXTRA_EMAIL, new String[] {"sheldon@cooper.com"});
