@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnFrameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onFrameLayout"
+        android:text="@string/frameLayout" />
+
+    <Button
+        android:id="@+id/btnLinealLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onLinearLayout"
+        android:text="@string/linearLayout" />
+
+    <Button
+        android:id="@+id/btnTableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onTableLayout"
+        android:text="@string/tableLayout" />
+
+    <Button
+        android:id="@+id/btnGridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onGridLayout"
+        android:text="@string/gridLayout" />
+
+    <Button
+        android:id="@+id/btnRelativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onRelativeLayout"
+        android:text="@string/relativeLayout" />
+
+</LinearLayout>

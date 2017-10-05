@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Layouts</string>
+    <string name="gridLayout">Grid Layout</string>
+    <string name="frameLayout">Frame Layout</string>
+    <string name="tableLayout">Table Layout</string>
+    <string name="linearLayout">Lineal Layout</string>
+    <string name="relativeLayout">Relative Layout</string>
+    <string name="scrollView">SrollView</string>
+
+    <string name="textoEjemplo">Texto ejemplo</string>
+    <string name="textoEjemplo2"> Otro Texto ejemplo</string>
+
+</resources>

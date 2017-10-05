@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="4"
+    android:rowCount="3"
+    android:padding="10dp">
+
+    <TextView
+        android:background="@drawable/texto_en_cuadro"
+        android:text="celda 1" />
+    <TextView
+        android:background="@drawable/texto_en_cuadro"
+        android:text="celda 2" />
+    <TextView
+        android:background="@drawable/texto_en_cuadro"
+        android:text="celda 3" />
+    <TextView
+        android:background="@drawable/texto_en_cuadro"
+        android:text="celda 4" />
+
+    <TextView
+        android:layout_columnSpan="2"
+        android:background="@drawable/texto_en_cuadro"
+        android:text="celda 5 con un colspan de 2" />
+
+    <TextView
+        android:background="@drawable/texto_en_cuadro"
+        android:text="celda 6 larga" />
+
+    <TextView
+        android:background="@drawable/texto_en_cuadro"
+        android:text="celda 7" />
+
+    <TextView
+        android:background="@drawable/texto_en_cuadro"
+        android:text="celda 8" />
+    <TextView
+        android:background="@drawable/texto_en_cuadro"
+        android:text="celda 9"/>
+    <Space />
+    <TextView
+        android:background="@drawable/texto_en_cuadro"
+        android:text="celda 10"/>
+
+
+</GridLayout>
