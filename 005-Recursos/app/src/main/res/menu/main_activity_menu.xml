@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- menu guardar. nos se mostrara nunca como icono -->
+    <item
+        android:id="@+id/mniSave"
+        android:title="@string/save"
+        android:icon="@drawable/ic_save"
+        app:showAsAction="never"/>
+
+    <!-- menu copiar. solo se muestra como icono si hay espacio -->
+    <item
+        android:id="@+id/mniCopy"
+        android:title="@android:string/copy"
+        android:icon="@drawable/ic_content_copy"
+        app:showAsAction="ifRoom"/>
+
+    <!-- menu pegar. solo se muestra como icono si hay espacio -->
+    <item
+        android:id="@+id/mniPaste"
+        android:title="@android:string/paste"
+        android:icon="@drawable/ic_content_paste"
+        app:showAsAction="ifRoom"/>
+
+    <!-- menu compartir. siempre se muestra como icono -->
+    <item
+        android:id="@+id/mniShare"
+        android:title="@string/share"
+        android:icon="@drawable/ic_share"
+        app:showAsAction="always"/>
+
+</menu>

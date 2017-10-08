@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">005-Resources</string>
+    <string name="preguntaGatitos">How many cats are there?</string>
+
+    <string name="error_numerico">That\'s not a number!</string>
+    <string name="content_description_gatito">cat</string>
+    <string name="save">save</string>
+    <string name="share">share</string>
+
+    <string name="content_description_batman">batman</string>
+
+
+    <plurals name="gatitos">
+        <item quantity="zero">There are no cats.</item>
+        <item quantity="one">There is one cat.</item>
+        <item quantity="other">There are %d cats.</item>
+    </plurals>
+
+
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">005-Recursos</string>
+    <string name="preguntaGatitos">¿Cuántos gatitos hay?</string>
+
+    <string name="error_numerico">No es un valor númerico válido</string>
+    <string name="content_description_gatito">gatito</string>
+    <string name="save">guardar</string>
+    <string name="share">compartir</string>
+
+    <string name="content_description_batman">batman</string>
+
+    <plurals name="gatitos">
+        <item quantity="zero">No hay ningún gatito.</item>
+        <item quantity="one">Hay un gatito.</item>
+        <!-- cadena con formato Sustituiremos %d por un numero -->
+        <item quantity="other">Hay %d gatitos.</item>
+    </plurals>
+
+</resources>
