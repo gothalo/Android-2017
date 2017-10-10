@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">006-ListView</string>
+
+    <array name="listaItems">
+        <item>Lunes</item>
+        <item>Martes</item>
+        <item>Miercoles</item>
+        <item>Jueves</item>
+        <item>Viernes</item>
+        <item>Sabado</item>
+        <item>Domingo</item>
+    </array>
+    <string name="title_activity_my_list">ListActivity</string>
+    <string name="title_activity_ejemplo_con_lista">EjemploActivityConListaActivity</string>
+    <string name="title_activity_custom_item">CustomItemActivity</string>
+</resources>
