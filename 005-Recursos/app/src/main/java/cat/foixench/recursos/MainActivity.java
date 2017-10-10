@@ -10,6 +10,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.PopupMenu;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -24,6 +25,24 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Button btnOk = (Button) findViewById(R.id.btnOk);
         btnOk.setOnClickListener(this);
 
+        final Button btnMnu = (Button) findViewById(R.id.menuButton);
+        btnMnu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                PopupMenu popupMenu = new PopupMenu(MainActivity.this, btnMnu);
+
+                popupMenu.getMenuInflater().inflate(R.menu.main_activity_menu, popupMenu.getMenu());
+
+                popupMenu.setOnMenuItemClickListener(new PopupMenu.OnMenuItemClickListener() {
+                    @Override
+                    public boolean onMenuItemClick(MenuItem menuItem) {
+                        return false;
+                    }
+                });
+
+                popupMenu.show();
+            }
+        });
 
 
     }

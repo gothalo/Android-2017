@@ -15,4 +15,8 @@
         <item name="android:padding">@dimen/paddingBoton</item>
     </style>
 
+    <style name="appLongButton" parent="@style/appButton">
+        <item name="android:layout_width">150dp</item>
+    </style>
+
 </resources>
