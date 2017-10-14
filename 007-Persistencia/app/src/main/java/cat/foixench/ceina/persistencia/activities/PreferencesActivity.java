@@ -69,20 +69,25 @@ public class PreferencesActivity extends AppCompatActivity implements SharedPref
         SharedPreferences prefs = getSharedPreferences(APP_PREFERENCES, MODE_PRIVATE);
         // necesitem un editor per canviar els valors
         SharedPreferences.Editor editor = prefs.edit();
+
         String userName = txtNombre.getText().toString().trim();
-
         Log.d(APP_TAG, "saving user name [" + userName + "]");
-
         // guardamos la preferencia
         editor.putString (PARAM_USER_NAME, userName);
 
-        // antes de guardar en la sd verificamos que tengamos permisos
-        if (AppUtils.hasPermisionToWriteSD(this)) {
-            editor.putBoolean(PARAM_USE_SD, chkGuardarSD.isChecked());
+        if (chkGuardarSD.isChecked()) {
+            // antes de guardar en la sd verificamos que tengamos permisos
+            if (AppUtils.hasPermisionToWriteSD(this)) {
+                editor.putBoolean(PARAM_USE_SD, chkGuardarSD.isChecked());
+            } else {
+                editor.putBoolean(PARAM_USE_SD, false);
+                Toast.makeText(this, R.string.err_no_permision, Toast.LENGTH_SHORT).show();
+            }
         } else {
+            // no se ha marcado el checkbox
             editor.putBoolean(PARAM_USE_SD, false);
-            Toast.makeText(this, R.string.err_no_permision, Toast.LENGTH_SHORT).show();
         }
+        Log.d(APP_TAG, "saving use SD [" + (chkGuardarSD.isChecked() && AppUtils.hasPermisionToWriteSD(this)) + "]");
 
         // se salva el fichero de preferencias.
         editor.commit();

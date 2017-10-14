@@ -137,7 +137,6 @@ public class MainActivity extends AppCompatActivity implements SharedPrefsInterf
         {
             // recuperamos el fichero del entorno privado de esta app
             fos = openFileOutput(this.APP_DATA_FILE, Context.MODE_PRIVATE);
-
             // escribimos el fichero
             fos.write(data.getBytes());
         }
