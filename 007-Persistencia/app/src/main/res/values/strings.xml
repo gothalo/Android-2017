@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">007 Persistencia</string>
+    <string name="mniSettings">Configuración</string>
+    <string name="title_activity_settings">Configuración</string>
+    <string name="nombre">Nombre</string>
+    <string name="guardarEnSD">Guardar en SD</string>
+    <string name="save">Guardar</string>
+    <string name="hola">Hola %s</string>
+
+
+    <string name="err_file_not_found">No se encuentra el fichero de datos</string>
+    <string name="err_io_w">No se puede escribir el fichero de datos</string>
+    <string name="err_io_r">No se puede leer el fichero de datos</string>
+    <string name="err_no_sd">No se puede acceder a la tarjeta SD</string>
+    <string name="err_no_permision">No hay permiso para accedera la tarjeta SD. Se usará la memoria interna</string>
+
+
+  </resources>

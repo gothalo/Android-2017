@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/default_padding"
+    tools:context=".activities.PreferencesActivity">
+
+
+    <TextView
+        android:id="@+id/lblNombre"
+        android:text="@string/nombre"
+        android:textSize="@dimen/textSizeHigh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/txtPrefNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/textSizeSmall"
+        android:layout_below="@id/lblNombre"/>
+
+    <TextView
+        android:id="@+id/lblSD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/guardarEnSD"
+        android:textSize="@dimen/textSizeHigh"
+        android:layout_below="@id/txtPrefNombre"/>
+
+    <CheckBox
+        android:id="@+id/chkPrefSD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txtPrefNombre"
+        android:layout_marginEnd="@dimen/default_margin"
+        android:layout_marginRight="@dimen/default_margin"
+        android:text="" />
+
+
+</RelativeLayout>
