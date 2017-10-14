@@ -229,6 +229,17 @@ public class MainActivity extends AppCompatActivity implements SharedPrefsInterf
         FileInputStream fin = null;
         try {
             File myDataFile = new File (getExternalFilesDir(this.APP_DATA_FOLDER), this.APP_DATA_FILE);
+
+            /*
+            Para acceder a un directorio "comun", como puede ser el de fotos
+                Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DCIM)
+             */
+
+            /*
+            Para acceder al ditectorio cache de la aplicación
+                this.getCacheDir()
+             */
+
             fin = new FileInputStream(myDataFile);
 
             StringBuilder data = new StringBuilder();
