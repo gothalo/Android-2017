@@ -46,6 +46,7 @@ captures/
 .idea/vcs.xml
 .idea/gradle.xml
 .idea/runConfigurations.xml
+.idea/
 *.iml
 
 # Keystore files

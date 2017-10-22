@@ -33,7 +33,7 @@ public class DBHelperTest {
 
         List<Shop> shopList = dbHelper.getAllShops();
 
-        assertNotNull(shopList);
+        // assertNotNull(shopList);
         assertTrue (shopList.size() > 0);
 
         Log.d(DBHelper.DATABASE_NAME, "Numero de tiendas : " + shopList.size());
