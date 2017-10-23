@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bloc de Notes</string>
+    <string name="title_activity_main">Les meves notes</string>
+    <string name="date_create">Creada :</string>
+    <string name="date_last_edit">Darrera modificació :</string>
+    <string name="title_viewnote_activity">Nota</string>
+    <string name="title_editnote_activity">Editar nota</string>
+    <string name="save">Desar</string>
+    <string name="delete">Esborrar</string>
+    <string name="delete_note_ok">La nota s\'ha esborrat correctament</string>
+    <string name="edit_note_ok">La nota s\'ha actualitzat correctament</string>
+    <string name="addNote">Nova</string>
+    <string name="add_note_ok">La nota s\'ha afegit correctament</string>
+    <string name="editNote">Editar</string>
+</resources>
