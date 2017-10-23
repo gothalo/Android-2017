@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_margin">8dp</dimen>
+    <dimen name="button_margin">2dp</dimen>
+
+    <dimen name="text_large">18sp</dimen>
+    <dimen name="text_medium">12sp</dimen>
+
+</resources>

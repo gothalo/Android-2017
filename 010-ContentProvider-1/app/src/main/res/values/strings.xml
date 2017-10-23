@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Registro de Llamadas</string>
+
+    <string name="btnAll">Todas</string>
+    <string name="btnIncomming">Recibidas</string>
+    <string name="btnOutgoing">Enviadas</string>
+    <string name="btnMissed">Perdidas</string>
+    <string name="btnRejected">Rechazadas</string>
+
+    <string name="callIconContentDescription">icono llamada</string>
+
+    <string name="callNumber">Número</string>
+    <string name="callDuration">Duración</string>
+    <string name="callDate">Fecha</string>
+
+</resources>
