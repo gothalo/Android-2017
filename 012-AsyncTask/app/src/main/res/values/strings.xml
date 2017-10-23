@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">009- Tareas asíncronas</string>
+    <string name="bloquear">Bloquear</string>
+    <string name="accion">Acción</string>
+    <string name="async">SegundoPlano</string>
+    <string name="texto_accion">se ha ejecutado una acción</string>
+    <string name="completado">Tarea finalizada!</string>
+</resources>
