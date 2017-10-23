@@ -21,7 +21,6 @@ public class ClientesProvider extends ContentProvider {
      */
     public static final Uri CONTENT_URI = Uri.parse(uri);
 
-    // necesario para el UriMatcher
     //Necesario para UriMatcher
     private static final int CLIENTES = 1;
     private static final int CLIENTES_ID = 2;
@@ -84,7 +83,7 @@ public class ClientesProvider extends ContentProvider {
      */
     @Override
     public Uri insert(Uri uri, ContentValues values) {
-        long regId = 1;
+        long regId = -1;
 
         SQLiteDatabase db = clidbh.getWritableDatabase();
 
