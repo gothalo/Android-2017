@@ -14,6 +14,8 @@ import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.text.format.DateFormat;
 import android.text.format.DateUtils;
+import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 import cat.foixench.ceina.registrodellamadas.utils.AppUtils;
@@ -25,7 +27,7 @@ import cat.foixench.ceina.registrodellamadas.utils.AppUtils;
 public class CallDetailActivity extends AppCompatActivity {
     public static final String EXTRA_ID = "ID";
 
-    private TextView tvCallNumber, tvCallDate, tvCallDuration;
+    private TextView tvCallNumber, tvCallDate, tvCallDuration, tvCallId;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,6 +40,7 @@ public class CallDetailActivity extends AppCompatActivity {
         tvCallNumber = (TextView) findViewById(R.id.tvCallNumber);
         tvCallDate = (TextView) findViewById(R.id.tvCallDate);
         tvCallDuration = (TextView) findViewById(R.id.tvCallDuration);
+        tvCallId = (TextView) findViewById(R.id.tvCallId);
 
         // recuperamos el id de la llamada
         Intent intent = getIntent();
@@ -47,6 +50,19 @@ public class CallDetailActivity extends AppCompatActivity {
         if (id > 0) {
             loadAndShowData (id);
         }
+
+        Button btnDelete = (Button) findViewById(R.id.btnDelete);
+        btnDelete.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                long id = Long.parseLong(tvCallId.getText().toString());
+                ContentResolver resolver = getContentResolver();
+                Uri llamadasUri = ContentUris.withAppendedId(CallLog.Calls.CONTENT_URI, id);
+
+                long callsDeleted = resolver.delete(llamadasUri, null, null);
+            }
+        });
+
     }
 
     private void loadAndShowData(long id) {
@@ -83,6 +99,7 @@ public class CallDetailActivity extends AppCompatActivity {
             tvCallNumber.setText(number);
             tvCallDate.setText(DateUtils.getRelativeTimeSpanString(this, date));
             tvCallDuration.setText(AppUtils.secondsToHoutMinSecond(duration));
+            tvCallId.setText(Long.toString(id));
 
         }
 
