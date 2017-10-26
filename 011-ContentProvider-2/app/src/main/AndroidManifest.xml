@@ -21,6 +21,7 @@
         <provider android:name=".provider.ClientesProvider"
             android:authorities="cat.foixench.ceina.contentprovider"
             android:exported="false"
+            android:enabled="true"
             />
 
     </application>

@@ -160,9 +160,9 @@ public class ClientesProvider extends ContentProvider {
         switch (match)
         {
             case CLIENTES:
-                return "vnd.android.cursor.dir/vnd.ceina.cliente";
+                return "vnd.android.cursor.dir/vnd.cat.foixench.ceina.cliente";
             case CLIENTES_ID:
-                return "vnd.android.cursor.item/vnd.ceina.cliente";
+                return "vnd.android.cursor.item/vnd.cat.foixench.ceina.cliente";
             default:
                 return null;
         }
