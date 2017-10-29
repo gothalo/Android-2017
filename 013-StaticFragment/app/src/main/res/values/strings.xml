@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">013-StaticFragment</string>
+
+    <array name="diccionario_entradas">
+        <item>Representa una pantalla de nuestra aplicación</item>
+        <item>Permite acceder a contenidos de terceros. También nos permite compartir datos gestionados por nuestra aplicación.</item>
+        <item>Representa una tarea en segundo plano. puede ejecutarse sin tener la aplicación visible.</item>
+        <item>Permite responder a eventos del sistema.</item>
+        <item>Representa una porción reutilizable del iterface gráfico del usuario.</item>
+    </array>
+</resources>

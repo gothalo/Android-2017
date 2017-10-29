@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Parcelable</string>
+    <string name="createParcel">Crear y enviar datos</string>
+
+    <string name="lblId">ID</string>
+    <string name="lblName">Nombre</string>
+    <string name="lblAddress">Dirección</string>
+
+    <string-array name="namesArray">
+        <item>James</item>
+        <item>Jane</item>
+        <item>Fred</item>
+        <item>Hanna</item>
+        <item>Peter</item>
+        <item>Gemma</item>
+        <item>Mark</item>
+        <item>Mary</item>
+        <item>Paul</item>
+        <item>Marcia</item>
+
+    </string-array>
+
+    <string-array name="citiesArray">
+        <item>Barcelona</item>
+        <item>London</item>
+        <item>Paris</item>
+        <item>New York</item>
+        <item>Berlin</item>
+        <item>Rome</item>
+        <item>Buenos Aires</item>
+        <item>Brussels</item>
+        <item>Tokio</item>
+        <item>Vancouver</item>
+    </string-array>
+
+</resources>
