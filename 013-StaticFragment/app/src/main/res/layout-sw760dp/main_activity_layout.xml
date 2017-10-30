@@ -9,7 +9,7 @@
         android:layout_width="@dimen/fragment_list_width"
         android:layout_height="match_parent"
         android:id="@+id/listFragment"
-        class="cat.foixench.ceina.staticfragment.fragments.ListFragment" />
+        class="cat.foixench.ceina.staticfragment.fragments.DictionaryListFragment" />
 
     <fragment
         android:layout_width="match_parent"
