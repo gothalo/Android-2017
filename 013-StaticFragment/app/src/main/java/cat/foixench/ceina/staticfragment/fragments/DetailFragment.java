@@ -1,5 +1,6 @@
 package cat.foixench.ceina.staticfragment.fragments;
 
+
 import android.app.Fragment;
 import android.os.Bundle;
 import android.view.LayoutInflater;
