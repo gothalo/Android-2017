@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">015-DynamicFragment</string>
+
+    <string name="lorem_ipsum">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et neque eget turpis ultricies vehicula tincidunt eu nunc. Sed porttitor ultrices nisi, in sagittis libero sollicitudin sit amet. Nam id odio pharetra nisl rutrum sodales. Donec ut sollicitudin tortor. Duis sit amet ornare sapien. Vivamus vitae varius sapien, a malesuada velit. Fusce eleifend felis ut vehicula congue. Nullam bibendum tortor eget erat lobortis tempus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec id congue metus. Pellentesque in lorem lorem.\n\n
+        Aliquam rhoncus risus vulputate tortor dictum dictum sit amet sed magna. Phasellus quis orci a sapien tristique tempor. Sed consectetur tortor lorem, ac lobortis nibh accumsan in. Quisque quis tortor ut magna blandit dapibus in rhoncus tellus. Cras purus urna, gravida non metus eu, tincidunt fringilla nisi. Fusce tristique finibus efficitur. Etiam at fringilla metus, et ultricies ipsum. Ut quis metus lobortis, egestas sapien vel, porttitor enim. Aenean ut aliquet mauris, et pulvinar lectus. Morbi nec blandit magna. Vivamus vitae odio condimentum, maximus massa at, ultricies risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna nibh, egestas in sagittis vel, scelerisque sed justo. In fermentum viverra dictum.
+
+
+    </string>
+
+</resources>
