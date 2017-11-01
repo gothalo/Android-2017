@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Note book</string>
+
+    <string name="title_activity_main">My notes</string>
+    <string name="title_viewnote_activity">Note</string>
+    <string name="title_editnote_activity">Edit note</string>
+
+    <!-- activity main -->
+    <string name="addNote">Add note</string>
+    <string name="add_note_ok">New note has been added</string>
+
+    <!-- actvity view Note -->
+    <string name="date_create">Created :</string>
+    <string name="date_last_edit">Last modified : </string>
+    <string name="editNote">Edit note</string>
+
+    <string name="delete_note_ok">Note has been deleted.</string>
+    <string name="edit_note_ok">Note has been updated</string>
+
+    <!-- activity edit note -->
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+</resources>

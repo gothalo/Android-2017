@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <fragment
+        android:layout_width="@dimen/list_item_bar"
+        android:layout_height="match_parent"
+        android:id="@+id/listFragment"
+        class="cat.foixench.ceina.notebook.fragments.NotesListFragment" />
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/detailFragment"
+        class="cat.foixench.ceina.notebook.fragments.NoteDetailFragment" />
+
+</LinearLayout>

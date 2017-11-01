@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="list_item_bar">250dp</dimen>
+    <dimen name="default_margin">10dp</dimen>
+
+    <dimen name="textSizeLarge">20sp</dimen>
+    <dimen name="textSizeMedium">15sp</dimen>
+    <dimen name="textSizeSmall">10sp</dimen>
+</resources>
