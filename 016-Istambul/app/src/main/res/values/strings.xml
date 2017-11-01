@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">016-Istambul</string>
+
+    <string-array name="mezquitas">
+        <item>hayasofia</item>
+        <item>ortakoy</item>
+        <item>suleymaniye</item>
+        <item>sultanahmet</item>
+    </string-array>
+</resources>
