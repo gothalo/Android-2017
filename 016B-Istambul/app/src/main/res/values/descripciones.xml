@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hayasofia">
+        Santa Sofia es una antigua basílica patriarcal ortodoxa, posteriormente convertida en mezquita y actualmente en museo, en la ciudad de Estambul, Turquía.\n\n Desde la fecha de su dedicación en el año 360 y hasta 1453 sirvió como la catedral ortodoxa bizantina de rito oriental de Constantinopla, excepto en el paréntesis entre 1204 y 1261 en que fue reconvertida en catedral católica de rito latino, durante el patriarcado latino de Constantinopla del Imperio latino, fundado por los cruzados. Tras la Conquista de Constantinopla por el Imperio otomano, el edificio fue transformado en mezquita, manteniendo esta función desde el 29 de mayo de 1453 hasta 1931, fecha en que fue secularizado. El 1 de febrero de 1935 fue inaugurado como museo.
+    </string>
+    <string name="ortakoy">
+        La mezquita de Ortaköy o mezquita de Mecidiye (nombre oficial Büyük Mecidiye Camii, Gran Mezquita Imperial del Sultán Abdülmecit), es una mezquita situada en la orilla occidental del Bósforo, en el puerto del cosmopolita barrio de Ortaköy, en Estambul, Turquía.\n\nEn el lugar se erigió una mezquita en el siglo XVIII, la actual fue ordenada construir por el sultán Abdülmecit entre 1854 y 1856. Sus arquitectos fueron los armenios Garabet Amira Balyan y Nigoğayos Balyan, padre e hijo, que la diseñaron en estilo neobarroco otomano.\n\nLos sultanes que habitaban en el palacio de Beylerbeyi, en la otra orilla del Bósforo, venían a rezar a esta mezquita en góndola. En el interior hay zonas reservadas para la familia imperial. Los altos ventanales están pensados para dejar pasar la luz del Bósforo, que se refleja en el agua creando un bello efecto.
+    </string>
+    <string name="suleymaniye">
+        La mezquita de Suleiman o mezquita de Süleymaniye (en turco, Süleymaniye Camii) es una mezquita imperial otomana situada en la tercera colina de Estambul, Turquía. Es la más grande de la ciudad y una de las panorámicas más conocidas de la misma.
+    </string>
+    <string name="sultanahmet">
+        La mezquita Azul o mezquita del Sultán Ahmed (en turco, Sultan Ahmet Camii) es una de las grandes mezquitas de Estambul, obra de Sedefkar Mehmet Ağa, discípulo del arquitecto Sinan. Está situada frente a la iglesia de Santa Sofía, separadas ambas por un jardín, y es la única de la ciudad que tiene seis alminares.\n\nSu magnífico exterior es acorde con su suntuoso interior, en el que una verdadera sinfonía de bellísimos mosaicos azules de Iznik logran una atmósfera muy especial.
+    </string>
+</resources>
