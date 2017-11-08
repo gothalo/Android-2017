@@ -1,0 +1,16 @@
+<resources>
+    <!-- Márgenes de pantalla por defecto. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!--Navigation Drawer Header-->
+    <dimen name="navigation_drawer_header">160dp</dimen>
+    <dimen name="min_width_icon_navigation_drawer_header">70dp</dimen>
+    <dimen name="min_height_icon_navigation_drawer_header">70dp</dimen>
+
+    <dimen name="menuOptionImageHeight">120dp</dimen>
+    <dimen name="detail_backdrop_height">256dp</dimen>
+    <dimen name="card_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+</resources>
