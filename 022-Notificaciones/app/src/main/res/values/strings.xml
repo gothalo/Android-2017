@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">022-Notificaciones</string>
+    <string name="notification_title">Now Playing</string>
+    <string name="notification_pause_text">Pause</string>
+</resources>

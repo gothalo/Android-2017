@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">023-NotificacionesPush</string>
+    <string name="second_activity">Notificación recibida"</string>
+</resources>
