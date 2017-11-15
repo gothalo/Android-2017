@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">024-BroadcastReceivers</string>
+    <string name="timer_activity">Timer</string>
+    <string name="time_separator">:</string>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cat.foixench.ceina.broadcastreceivers.activities.TimerActivity"
+    android:gravity="center|center">
+
+    <TextView
+        android:id="@+id/tvHour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/LargeText"
+        android:fontFamily="monospace" />
+
+    <TextView
+        android:id="@+id/tvSeparator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/LargeText"
+        android:text="@string/time_separator"
+        android:paddingEnd="@dimen/separator_padding"
+        android:paddingRight="@dimen/separator_padding"
+        android:paddingStart="@dimen/separator_padding"
+        android:paddingLeft="@dimen/separator_padding"/>
+
+    <TextView
+        android:id="@+id/tvMinute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/LargeText" />
+
+
+</LinearLayout>

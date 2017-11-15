@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">025-LocalBroadcast</string>
+    <string name="service_end">Servicio Finalizado</string>
+    <string name="service_start">Servicio Iniciado</string>
+</resources>
