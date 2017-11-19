@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">026-REST</string>
+    <string name="title_activity_all_users">AllUsersActivity</string>
+    <string name="title_activity_user_detail">UserDetailActivity</string>
+    <string name="user_header">User</string>
+    <string name="company_name">Company : </string>
+    <string name="addres_header">Address</string>
+</resources>
