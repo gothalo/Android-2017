@@ -1,0 +1,8 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="md_keylines">16dp</dimen>
+    <dimen name="navheader_height">222dp</dimen>
+
+    <dimen name="min_width_icon_navigation_drawer_header">70dp</dimen>
+    <dimen name="min_height_icon_navigation_drawer_header">70dp</dimen>
+</resources>
