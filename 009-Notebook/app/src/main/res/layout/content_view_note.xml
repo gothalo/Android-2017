@@ -95,7 +95,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvLabelUpdated"/>
+        app:layout_constraintTop_toBottomOf="@+id/tvLabelUpdated"
+        android:scrollbars="vertical"/>
 
     <TextView
         android:layout_width="wrap_content"
